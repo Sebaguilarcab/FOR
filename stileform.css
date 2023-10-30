@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&display=swap');
+body{
+    
+    text-align: center;
+    
+    justify-content: center;
+    
+}
+legend{
+    font-family: 'Merriweather', serif;
+    font-size: xx-large;
+    
+}
+label{
+    
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+    align-content: space-evenly;
+}
+form input{
+    
+    width: 100%;
+    border-radius: 4px;
+    border:2px solid rgb(53, 46, 46);
+    color: rgb(66, 11, 110);
+    font-size: x-large;
+}
+form input[type=email]{
+    background-color:rgb(241, 241, 236);
+    background-image: url(https://w7.pngwing.com/pngs/243/358/png-transparent-black-and-white-e-mail-logo-email-computer-icons-icon-design-email-miscellaneous-angle-triangle-thumbnail.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 5px;
+    padding-left: 40px;
+    width: 98%;
+    margin-left:1% ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    
+
+}
+form input[type=number]{
+    background-color:rgb(241, 241, 236)                                                                                        ;
+   
+    
+    margin: 8px;
+    padding: 12px;
+}
+form input[type=submit]{
+    padding: 10px;
+    margin: 1%;
+    margin-left: 5%;
+}
+
+
+
+
+
+form input[type=text]{
+    display: flex;
+    background-color:rgb(241, 241, 236) ;
+    
+    
+    margin: 8px;
+    padding: 12px;
+}
+#contact_number{
+    background-color: white;
+    background-image: url(https://w7.pngwing.com/pngs/956/387/png-transparent-round-black-telephone-logo-telephone-icon-phone-file-electronics-logo-black-and-white-thumbnail.png);
+    background-size: 40px 40px ;
+    background-repeat: no-repeat;
+    background-position:5px ;
+    padding-left: 48px;
+}
+#gender_user{
+    padding: 1px;
+    width: 100%;
+    margin-left: 3%;
+    border: 3px;
+
+
+}
