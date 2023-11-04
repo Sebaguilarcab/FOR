@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register user</title>
+    <link rel="stylesheet" href="stileform.css">
+</head>
+
+<body>
+    
+    
+    
+    <div class="contain--formulario">
+        <form action="formulario" method="post">
+            <ol>
+                <legend>give us your data</legend>
+                <li>
+                    <label for="name">nombre</label>
+                    <input type="text" placeholder="name">
+                </li>
+                <li>
+                    <label for="lastname">apellido</label>
+                    <input type="text" placeholder="last name">
+                </li>
+                <li>
+                    <label class="correo" for="e-mail">correo</label>
+                    <input type="email" name="e-mail_user" id="e-mail_user" placeholder="E-mail">
+                </li>
+                <li>
+                    <label class="edad" for="age">edad</label>
+                    <input type="number" name="age" id="age_user" placeholder="Age">
+                </li>
+                <li>
+                    <label class="gender" for="gender_user">genero</label><br><br>
+                </li>    
+                <li>
+                    <select name="gender_user" id="gender_user">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="contact_number">numero de contacto</label>
+                    <input type="text" name="contact_number" id="contact_number" placeholder="phone"> 
+                </li>
+                <li>
+                    <input type="checkbox" name="notifications" id="notifications">
+                    <label for="notifications">I want to receive notifications to my email</label>
+                </li>    
+                    <input type="submit" value="registrarse">   
+            </ol>
+        </form>
+    </div>
+</body>
+</html>
