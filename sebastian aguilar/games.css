@@ -6,22 +6,32 @@
     box-sizing: border-box;
     
 }
+
 body{
-    
     background: linear-gradient(purple,blue);
+    background-repeat: no-repeat;
     
-    flex-wrap: wrap;
-
-
     
 }
 
+
+body .container--cards{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+
+
 .container--cards{
     max-width: 400px;
-    margin: auto;
+    margin: 75px;
     
-    margin-top: 30px;
-   
+    
+    justify-content: center;
     font-family: 'Merriweather', serif;
     font-family: 'Orbitron', sans-serif;
     
@@ -32,6 +42,7 @@ body{
 .card--father{
     margin:0;
     display: flex;
+    
 
 }
 
@@ -41,8 +52,8 @@ body{
 }
 
 .cards{
-    width: 300px;
-    height: 450px;
+    width: 500px;
+    height: 650px;
     
     position: relative;
     transform-style: preserve-3d;
@@ -54,7 +65,9 @@ body{
 .card--front--froggy{
     background-image: url(flexbox-froggy.png);
     background-position: center;
-   
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-color: rgb(215, 186, 2);
    
 
 }
@@ -83,10 +96,10 @@ body{
     align-items: center;
     padding: 40px;
     display: flex;
-    color: aliceblue;
+    color: rgb(12, 184, 211);
     position: relative;
     transform: translateZ(100px); 
-    text-shadow: black 2px 0px;
+    text-shadow: black 2px 2px;
     font-size: 40px;
     
     
@@ -101,25 +114,39 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    padding: 15%;
     display: flex; 
     position: relative;
     transform: translateZ(100px); 
+    font-size: x-large;
+    
+    
 }
 
 .body--card--back input{
-    padding: 10px;
+    padding: 0px;
     font-family: 'Orbitron', sans-serif;
+    background-color: blueviolet;
+    width: 40%;
+    height: 10%;
+    color: white;
+    font-size: medium;
+    bottom: 0%;
+    margin-top: 8%;
+    box-shadow: 20px;
     
 }
 
 .body--card--back p{
-    margin: 20px;
+    margin: 0px;
 }
 
-.card--front--defense{
-    background-image: url(flexboxdefense.png);
+.card--front--zombies{
+    background-image: url(flexzombies.jpeg);
     background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-color: rgb(241, 4, 4);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -129,3 +156,61 @@ body{
     left: 0%; 
     border-radius: 20px;   
 }
+.card--front--GridAttack{
+    background-image: url(gridattack.png);
+    background-position:center ;
+    background-size: 500px;
+   
+    background-repeat: no-repeat;
+    background-color: rgb(245, 225, 3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    top: 0%;
+    left: 0%; 
+    border-radius: 20px; 
+}
+.card--front--Knights{
+    background-image: url(knight.jpeg);
+    background-position:center ;
+    background-size: 500px;
+   
+    background-repeat: no-repeat;
+    background-color: rgb(217, 105, 7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    top: 0%;
+    left: 0%; 
+    border-radius: 20px;
+}
+
+
+.card--front--adventure{
+    background-image: url(adventurejpeg);
+    background-position:center ;
+    background-size: 500px;
+   
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    top: 0%;
+    left: 0%; 
+    border-radius: 20px;
+
+}
+
+
+.card--front--Knights .body--card--front{
+    text-shadow: rgb(0, 0, 0) 2px 2px;
+
+}
+
